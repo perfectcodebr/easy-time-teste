@@ -2,3 +2,101 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.divprincipal {
+    width: 253px;
+    background-color:#ffffff;
+    border:2px solid #D9D9D9;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0px 0px 0px;
+    margin-top: 20px;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+    
+    
+}
+
+.divprincipal:hover {
+    animation-delay: 0.5s;
+    transform: scale(1.04);
+    box-shadow: 0px 2px rgba(6, 6, 6, 0.3);
+     
+}
+
+
+
+.titulo1 {
+    font-family:"roboto",sans-serif;
+    font-size: 28px;
+    font-weight:bold;
+    color: #666666;
+    margin-top: 10px;
+}
+
+
+
+p {
+    font-family: "roboto",sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #53E883;
+}
+
+.divconteudo {
+    width: 30px;
+    height: 20px;
+    background-color: #75ED9C;
+    border-radius: 4px;
+    display: flex;
+    float: inline-end;
+    flex-direction: row;
+    
+    
+    
+}
+
+.preço {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+
+
+.divconteudo p {
+    font-size: 12.5px;
+    color: #2E8048;
+
+}
+
+hr {
+    width: 223px;
+    height: 2px;
+    background-color: #666666;
+    margin-top: 20px;
+    opacity: 25%;
+}
+
+.conteudo1 {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.conteudo1 h2 {
+    font-family: "roboto",sans-serif;
+    font-size: 18px;
+    color: #666666;
+    display: flex;
+    float:inline-end;
+    flex-direction: row;
+    margin: 10px;
+    
+}
